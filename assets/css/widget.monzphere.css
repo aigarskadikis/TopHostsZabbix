@@ -9,7 +9,7 @@
 }
 
 .sortable-monzphere::after {
-	content: '⇅';
+	content: '';
 	position: absolute;
 	right: 8px;
 	top: 50%;
@@ -19,11 +19,11 @@
 }
 
 .sortable-monzphere.sort-asc::after {
-	content: '↑';
+	content: '';
 	opacity: 1;
 }
 
 .sortable-monzphere.sort-desc::after {
-	content: '↓';
+	content: '';
 	opacity: 1;
 }
